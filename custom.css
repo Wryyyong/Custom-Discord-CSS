@@ -1,0 +1,96 @@
+@import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/RadialStatus/import/RadialStatus.css);
+
+:root 
+{
+    --main-color:#0066ff !important;
+    --hover-color:#003399 !important;
+    --blur-nsfw:15px !important;
+	--background-blur: 0px !important;
+	--background-brightness: 0% !important;
+	--rs-spacing: 1px;
+	--rs-popout-spacing: 1px;
+	--rs-profile-spacing: 1px;
+}
+
+	/* Jumbo Avatars */
+.emoji
+{
+	width: 35px;
+	height: 35px;
+}
+.emoji.jumboable 
+{ 
+	width: 50px; 
+	height: 50px;
+	margin-top: 0;
+}
+
+	/* Square Avatars */
+.image-33JSyf,
+.guildInner-3DSoA4,
+.avatar-large, 
+.avatar-profile, 
+.avatar-small, 
+.avatar-xlarge, 
+.avatar-xsmall, 
+.avatar-xxlarge,
+.avatarHint-1qgaV3,
+.wrapper-2F3Zv8
+{
+    border-radius: 0 !important;
+}
+.mask-3OgeRz 
+{
+    -webkit-mask: none !important;
+    mask: none !important;
+}
+
+	/* Remove Message Borders */
+.containerCozy-jafyvG .divider-32i8lo
+{
+	border-bottom: 0
+}
+
+	/* Blue Mention Sign */
+.isMentionedCozy-3isp7y:after
+{
+	background: rgba(0, 153, 255, 0.1);
+	border-left: 4px solid #0099ff
+}
+.theme-dark .isMentioned-N-h9aa
+{
+	background: rgba(0, 153, 255, 0.1)
+}
+
+	/* Underline Roles in Member List & DMs */
+.members-1998pB .membersGroup-v9BXpm, .private-channels header 
+{
+	text-align: center;
+	overflow: visible;
+	margin-bottom: 10px;
+}
+.members-1998pB .membersGroup-v9BXpm::after, .private-channels header::after 
+{
+	content: "";
+	display: block;
+	height: 1px;
+	width: 100%;
+	border-bottom: 2px solid #0099ff;
+}
+.private-channels header::after {padding-bottom: 10px;}
+
+	/* Underline Labels in Channel List */
+.channels-Ie2l6A .wrapperDefault-10Jfvz, .channels-Ie2l6A .wrapperHovered-28fu1D 
+{
+	padding-top: 28px;
+	padding-right: 8px;
+	padding-left: 18px;
+	padding: 0 0 8px 0;
+	height: auto;
+	margin: 0;
+	border-bottom: 2px solid #0099ff;
+}
+.channels-Ie2l6A .nameDefault-2DI02H, .channels-Ie2l6A .nameHovered-1gxhWH 
+{
+	text-align: center;
+}
