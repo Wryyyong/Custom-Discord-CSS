@@ -66,3 +66,44 @@
 {
 	text-align: center;
 }
+
+	/* <3 */
+.theme-dark .container-2lgZY8,
+.theme-dark .ui-standard-sidebar-view
+{
+	background: rgba(0, 0, 0, 0)
+}
+.theme-dark .chat-3bRxxu,
+.theme-dark .guildsWrapper-5TJh6A,
+.theme-dark .layer-3QrUeG,
+.theme-dark .chat-3bRxxu>.content-yTz4x3, 
+.theme-dark .chat-3bRxxu form, 
+.flex-horizontal>.flex-spacer, 
+.theme-dark .uploadModal-2ifh8j .footer-3mqk7D, 
+.theme-dark #friends, 
+.theme-dark .activityFeed-28jde9, 
+.theme-dark .footer-2yfCgX, 
+.theme-dark .headerBar-UHpsPw, 
+.theme-dark .channels-Ie2l6A, 
+.theme-dark .container-PNkimc, 
+.theme-dark .ui-standard-sidebar-view .sidebar-region, 
+.theme-dark .ui-standard-sidebar-view .content-region, 
+.theme-dark .layers-3iHuyZ, 
+.theme-dark .guildsWrapper-5TJh6A .guilds-1q_RqH, 
+.theme-dark .chat-3bRxxu .content-yTz4x3, 
+.theme-dark .members-1998pB, 
+.theme-dark .title-3qD0b-, 
+.theme-dark .scroller-2v3d_F, 
+.typing-2GQL18,
+.theme-dark .header-2o-2hj, 
+.theme-dark .container-2Thooq,
+.theme-dark .messagesWrapper-3lZDfY,
+.theme-dark .gameLibrary-TTDw4Y
+{
+	background: transparent !important;
+	background-color: rgba(47, 49, 54, 0) !important
+}
+.appMount-3VJmYg 
+{
+    background-image: url(https://i.imgur.com/22j0QrH.png)
+}
