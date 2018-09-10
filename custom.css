@@ -1,12 +1,13 @@
-@import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/RadialStatus/import/RadialStatus.css);
+@import url("https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/RadialStatus/import/RadialStatus.css");
 
 :root 
 {
     --main-color:#0066ff !important;
     --hover-color:#003399 !important;
     --blur-nsfw:15px !important;
+	--blur-nsfw-time:0 !important;
 	--background-blur: 0px !important;
-	--background-brightness: 0% !important;
+	--background-brightness: 100% !important;
 	--rs-spacing: 1px;
 	--rs-popout-spacing: 1px;
 	--rs-profile-spacing: 1px;
@@ -25,7 +26,7 @@
 	margin-top: 0;
 }
 
-	/* Square Avatars */
+	/* Squares */
 .image-33JSyf,
 .guildInner-3DSoA4,
 .avatar-large, 
@@ -35,7 +36,8 @@
 .avatar-xsmall, 
 .avatar-xxlarge,
 .avatarHint-1qgaV3,
-.wrapper-2F3Zv8
+.wrapper-2F3Zv8,
+.imageWrapper-2p5ogY
 {
     border-radius: 0 !important;
 }
