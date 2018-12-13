@@ -13,7 +13,7 @@
 	--rs-profile-spacing: 1px;
 }
 
-	/* Jumbo Avatars */
+	/* Jumbo Emoji */
 .emoji
 {
 	width: 35px;
@@ -95,4 +95,17 @@
 .channels-Ie2l6A .nameDefault-2DI02H, .channels-Ie2l6A .nameHovered-1gxhWH 
 {
 	text-align: center;
+}
+
+	/* Custom Roles */
+.role-2irmRk
+{
+	border-radius: 0;
+	background-color: inherit;
+}
+.roleCircle-3xAZ1j
+{
+	border-radius: 0;
+	height: 5;
+	width: 5;
 }
