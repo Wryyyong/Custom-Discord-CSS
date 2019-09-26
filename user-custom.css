@@ -1,8 +1,3 @@
-:root
-{ 
-	--wrong-main-colour:#0099ff;
-}
-
 	/* Jumbo Emoji */
 .emoji
 {
@@ -28,24 +23,24 @@
 .wrapper-3t9DeA foreignObject
 {
     mask: none;
-    border-radius: 0px;
+    border-radius: 0 !important;
 }
 
 	/* Remove Message Borders */
 .containerCozy-jafyvG .divider-32i8lo
 {
-	border-bottom: 0px;
+	border-bottom: 0
 }
 
 	/* Blue Mention Sign */
 .isMentionedCozy-3isp7y:after
 {
-	background: var(--wrong-main-colour);
-	border-left: 4px solid var(--wrong-main-colour);
+	background: rgba(0, 153, 255, 0.1);
+	border-left: 4px solid #0099ff
 }
 .theme-dark .isMentioned-N-h9aa
 {
-	background: var(--wrong-main-colour);
+	background: rgba(0, 153, 255, 0.1)
 }
 
 	/* Underline Roles in Member List & DMs */
@@ -61,7 +56,7 @@
 	display: block;
 	height: 1px;
 	width: 100%;
-	border-bottom: 2px solid var(--wrong-main-colour);
+	border-bottom: 2px solid #0099ff;
 }
 .private-channels header::after {padding-bottom: 10px;}
 
@@ -74,7 +69,7 @@
 	padding: 0 0 8px 0;
 	height: auto;
 	margin: 0;
-	border-bottom: 2px solid var(--wrong-main-colour);
+	border-bottom: 2px solid #0099ff;
 }
 .wrapper-CU3qI5, .channels-Ie2l6A .nameHovered-1gxhWH 
 {
@@ -84,12 +79,12 @@
 	/* Custom Roles */
 .role-2irmRk
 {
-	border-radius: 0px;
+	border-radius: 0;
 	background-color: inherit;
 }
 .roleCircle-3xAZ1j
 {
-	border-radius: 0px;
+	border-radius: 0;
 	height: 5;
 	width: 5;
 }
@@ -97,7 +92,7 @@
 	/* Custom Ping Badge */
 .numberBadge-2s8kKX
 {
-	-webkit-text-stroke: 2.25px var(--wrong-main-colour);
+	-webkit-text-stroke: 2.25px #0099ff;
 	font-size: 44px;
 	color: rgb(255, 255, 255);
 	min-height: 48px;
