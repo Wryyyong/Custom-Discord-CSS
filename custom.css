@@ -1,16 +1,24 @@
-@import url("https://raw.githubusercontent.com/rauenzi/BetterDiscordAddons/master/Themes/RadialStatus/import/RadialStatus.css");
+/* 
+@import url("https://cdn.jsdelivr.net/gh/Gibbu/BetterDiscord-Themes@master/RadialStatus/RadialStatus.theme.css");
+
+#app-mount .wrapper-3t9DeA img,
+#app-mount .avatarHint-1qgaV3 .avatarHintInner-Dco91E 
+{ 
+		border-radius: -10% !important; 
+} 
+*/
 
 :root 
 {
-    	--main-color:#0066ff !important;
-    	--hover-color:#003399 !important;
-    	--blur-nsfw:15px !important;
+    --main-color:#0066ff !important;
+    --hover-color:#003399 !important;
+    --blur-nsfw:15px !important;
 	--blur-nsfw-time:0 !important;
 	--background-blur: 0px !important;
 	--background-brightness: 100% !important;
-	--rs-spacing: 1px;
-	--rs-popout-spacing: 1px;
-	--rs-profile-spacing: 1px;
+	--rs-small-spacing: 1px;
+	--rs-large-spacing: 1spx;
+	--rs-width: 2px;
 }
 
 	/* Jumbo Emoji */
@@ -27,29 +35,18 @@
 }
 
 	/* Squares */
-.image-33JSyf,
-.avatar-large, 
-.avatar-profile, 
-.avatar-small, 
-.avatar-xlarge, 
-.avatar-xsmall, 
-.avatar-xxlarge,
-.avatarHint-1qgaV3,
-.wrapper-2F3Zv8,
-.imageWrapper-2p5ogY,
-.inner-1W0Bkn,
-.iconInactive-98JN5i,
-.friendsTable-133bsv,
-.friendsRow-2yicud,
-.friendsColumnGuilds-2we6jb,
-.moreMutualGuildsBtn-2VwbkO,
-.numberBadge-2s8kKX
-{
-    border-radius: 0 !important;
-}
 .wrapper-1Rf91z .listItem-2P_4kh mask
 {
-  display: none
+	display: none
+}
+.avatar-28BJzY foreignObject,
+.avatar-17mtNa foreignObject,
+.avatar-SmRMf2 foreignObject,
+.avatarWrapper-3B0ndJ foreignObject,
+.wrapper-3t9DeA foreignObject
+{
+    mask: none;
+    border-radius: 0 !important;
 }
 
 	/* Remove Message Borders */
@@ -118,10 +115,19 @@
 	/* Custom Ping Badge */
 .numberBadge-2s8kKX
 {
-	-webkit-text-stroke: 2.25px rgb(240, 71, 71);
+	-webkit-text-stroke: 2.25px #0099ff;
 	font-size: 44px;
 	color: rgb(255, 255, 255);
 	min-height: 48px;
 	min-width: 48px;
 	background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.base-PmTxvP
+{
+	border-radius: 0px;
+}
+.lowerBadge-29hYVK,
+.upperBadge-2XnnGB
+{
+	pointer-events: none;
 }
