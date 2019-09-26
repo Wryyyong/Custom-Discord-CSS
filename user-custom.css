@@ -1,37 +1,46 @@
-@import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/RadialStatus/import/RadialStatus.css);
-
-:root 
+	/* Jumbo Emoji */
+.emoji
 {
-	--rs-spacing: 1px;
-	--rs-popout-spacing: 1px;
-	--rs-profile-spacing: 1px;
+	width: 35px;
+	height: 35px;
+}
+.emoji.jumboable 
+{ 
+	width: 50px; 
+	height: 50px;
+	margin-top: 0;
 }
 
 	/* Squares */
-.image-33JSyf,
-.guildInner-3DSoA4,
-.avatar-large, 
-.avatar-profile, 
-.avatar-small, 
-.avatar-xlarge, 
-.avatar-xsmall, 
-.avatar-xxlarge,
-.avatarHint-1qgaV3,
-.wrapper-2F3Zv8,
-.imageWrapper-2p5ogY
+.wrapper-1Rf91z .listItem-2P_4kh mask
 {
-    border-radius: 0 !important;
+	display: none
 }
-.mask-3OgeRz 
+.avatar-28BJzY foreignObject,
+.avatar-17mtNa foreignObject,
+.avatar-SmRMf2 foreignObject,
+.avatarWrapper-3B0ndJ foreignObject,
+.wrapper-3t9DeA foreignObject
 {
-    -webkit-mask: none !important;
-    mask: none !important;
+    mask: none;
+    border-radius: 0 !important;
 }
 
 	/* Remove Message Borders */
 .containerCozy-jafyvG .divider-32i8lo
 {
 	border-bottom: 0
+}
+
+	/* Blue Mention Sign */
+.isMentionedCozy-3isp7y:after
+{
+	background: rgba(0, 153, 255, 0.1);
+	border-left: 4px solid #0099ff
+}
+.theme-dark .isMentioned-N-h9aa
+{
+	background: rgba(0, 153, 255, 0.1)
 }
 
 	/* Underline Roles in Member List & DMs */
@@ -52,7 +61,7 @@
 .private-channels header::after {padding-bottom: 10px;}
 
 	/* Underline Labels in Channel List */
-.channels-Ie2l6A .wrapperDefault-10Jfvz, .channels-Ie2l6A .wrapperHovered-28fu1D 
+.wrapper-CU3qI5, .channels-Ie2l6A .wrapperHovered-28fu1D 
 {
 	padding-top: 28px;
 	padding-right: 8px;
@@ -62,48 +71,40 @@
 	margin: 0;
 	border-bottom: 2px solid #0099ff;
 }
-.channels-Ie2l6A .nameDefault-2DI02H, .channels-Ie2l6A .nameHovered-1gxhWH 
+.wrapper-CU3qI5, .channels-Ie2l6A .nameHovered-1gxhWH 
 {
 	text-align: center;
 }
 
-	/* <3 */
-.theme-dark .container-2lgZY8,
-.theme-dark .ui-standard-sidebar-view
+	/* Custom Roles */
+.role-2irmRk
 {
-	background: rgba(0, 0, 0, 0)
+	border-radius: 0;
+	background-color: inherit;
 }
-.theme-dark .chat-3bRxxu,
-.theme-dark .guildsWrapper-5TJh6A,
-.theme-dark .layer-3QrUeG,
-.theme-dark .chat-3bRxxu>.content-yTz4x3, 
-.theme-dark .chat-3bRxxu form, 
-.flex-horizontal>.flex-spacer, 
-.theme-dark .uploadModal-2ifh8j .footer-3mqk7D, 
-.theme-dark #friends, 
-.theme-dark .activityFeed-28jde9, 
-.theme-dark .footer-2yfCgX, 
-.theme-dark .headerBar-UHpsPw, 
-.theme-dark .channels-Ie2l6A, 
-.theme-dark .container-PNkimc, 
-.theme-dark .ui-standard-sidebar-view .sidebar-region, 
-.theme-dark .ui-standard-sidebar-view .content-region, 
-.theme-dark .layers-3iHuyZ, 
-.theme-dark .guildsWrapper-5TJh6A .guilds-1q_RqH, 
-.theme-dark .chat-3bRxxu .content-yTz4x3, 
-.theme-dark .members-1998pB, 
-.theme-dark .title-3qD0b-, 
-.theme-dark .scroller-2v3d_F, 
-.typing-2GQL18,
-.theme-dark .header-2o-2hj, 
-.theme-dark .container-2Thooq,
-.theme-dark .messagesWrapper-3lZDfY,
-.theme-dark .gameLibrary-TTDw4Y
+.roleCircle-3xAZ1j
 {
-	background: transparent !important;
-	background-color: rgba(47, 49, 54, 0) !important
+	border-radius: 0;
+	height: 5;
+	width: 5;
 }
-.appMount-3VJmYg 
+
+	/* Custom Ping Badge */
+.numberBadge-2s8kKX
 {
-    background-image: url(https://i.imgur.com/22j0QrH.png)
+	-webkit-text-stroke: 2.25px #0099ff;
+	font-size: 44px;
+	color: rgb(255, 255, 255);
+	min-height: 48px;
+	min-width: 48px;
+	background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.base-PmTxvP
+{
+	border-radius: 0px;
+}
+.lowerBadge-29hYVK,
+.upperBadge-2XnnGB
+{
+	pointer-events: none;
 }
