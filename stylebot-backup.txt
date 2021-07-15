@@ -1,1 +1,0 @@
-{"https://discordapp.com/":{"_enabled":true,"_rules":{"at1":{"at":true,"text":"@import url(https://rawgit.com/Wrongyboi/Custom-Discord-CSS/master/custom.css);","type":"@import","url":"https://rawgit.com/Wrongyboi/Custom-Discord-CSS/master/custom.css"}}}}

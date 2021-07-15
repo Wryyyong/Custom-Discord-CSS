@@ -4,61 +4,62 @@
 	width: 35px;
 	height: 35px;
 }
-.emoji.jumboable 
-{ 
-	width: 50px; 
+.emoji.jumboable
+{
+	width: 50px;
 	height: 50px;
 	margin-top: 0;
 }
+.activityEmoji-2GDGtF,
+.activityEmoji-1AR8K6
+{
+	width: 25px;
+	height: 25px;
+}
 
 	/* Squares */
-.wrapper-1Rf91z .listItem-2P_4kh mask
+.wrapper-3t9DeA foreignObject,
+.wrapper-25eVIn foreignObject
 {
-	/* display: none */
+	mask: none;
 }
 .avatar-1BDn8e,
-.wrapper-3t9DeA foreignObject
+.icon-27yU2q,
+.wrapperSimple-19ogV2
 {
-    mask: none;
-    border-radius: 0 !important;
-}
-
-	/* Remove Message Borders */
-.containerCozy-jafyvG .divider-32i8lo
-{
-	border-bottom: 0
+	border-radius: 0 !important;
 }
 
 	/* Blue Mention Sign */
-.isMentionedCozy-3isp7y:after
+.essahe-2qnXI6 .mentioned-xhSam7 .selected-2P5D_Z,
+.mouse-mode .mentioned-xhSam7:hover
 {
-	background: rgba(0, 153, 255, 0.1);
-	border-left: 4px solid #0099ff
+	background: rgba(0, 100, 255, 0.1)
 }
-.theme-dark .isMentioned-N-h9aa
+.mentioned-xhSam7:before
 {
-	background: rgba(0, 153, 255, 0.1)
+	background-color: #0099ff;
 }
 
 	/* Underline Roles in Member List & DMs */
-.members-1998pB .membersGroup-v9BXpm, .private-channels header 
+.membersGroup-v9BXpm
 {
 	text-align: center;
 	overflow: visible;
 	margin-bottom: 10px;
 }
-.members-1998pB .membersGroup-v9BXpm::after, .private-channels header::after 
+.membersGroup-v9BXpm::after
 {
 	content: "";
 	display: block;
 	height: 1px;
 	width: 100%;
 	border-bottom: 2px solid #0099ff;
+	padding-bottom: 5px;
 }
-.private-channels header::after {padding-bottom: 10px;}
 
 	/* Underline Labels in Channel List */
-.wrapper-CU3qI5, .channels-Ie2l6A .wrapperHovered-28fu1D 
+div.mainContent-2h-GEV
 {
 	padding-top: 28px;
 	padding-right: 8px;
@@ -68,7 +69,7 @@
 	margin: 0;
 	border-bottom: 2px solid #0099ff;
 }
-.wrapper-CU3qI5, .channels-Ie2l6A .nameHovered-1gxhWH 
+.name-3l27Hl .overflow-WK9Ogt
 {
 	text-align: center;
 }
@@ -77,7 +78,6 @@
 .role-2irmRk
 {
 	border-radius: 0;
-	background-color: inherit;
 }
 .roleCircle-3xAZ1j
 {
@@ -104,4 +104,10 @@
 .upperBadge-2XnnGB
 {
 	pointer-events: none;
+}
+
+/* Special Codeblocks */
+code.markup-2BOw-j
+{
+	font-family: 'Courier New', Courier, monospace
 }
