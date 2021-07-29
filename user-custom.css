@@ -1,3 +1,16 @@
+	/* Imports */
+@import url("https://cdn.jsdelivr.net/gh/DiscordStyles/RadialStatus/dist/RadialStatus.theme.min.css");
+	/* Radial Status Options */
+:root
+{
+	--rs-small-spacing: 1px;
+	--rs-medium-spacing: 2px;
+	--rs-large-spacing: 2px;
+	--rs-small-width: 2px;
+	--rs-medium-width: 4px;
+	--rs-large-width: 4px;
+	--rs-avatar-shape: 0%;
+}
 	/* Jumbo Emoji */
 .emoji
 {
@@ -16,7 +29,6 @@
 	width: 25px;
 	height: 25px;
 }
-
 	/* Squares */
 .wrapper-3t9DeA foreignObject,
 .wrapper-25eVIn foreignObject
@@ -25,11 +37,11 @@
 }
 .avatar-1BDn8e,
 .icon-27yU2q,
-.wrapperSimple-19ogV2
+.wrapperSimple-19ogV2,
+.replyAvatar-1K9Wmr
 {
 	border-radius: 0 !important;
 }
-
 	/* Blue Mention Sign */
 .essahe-2qnXI6 .mentioned-xhSam7 .selected-2P5D_Z,
 .mouse-mode .mentioned-xhSam7:hover
@@ -40,7 +52,6 @@
 {
 	background-color: #0099ff;
 }
-
 	/* Underline Roles in Member List & DMs */
 .membersGroup-v9BXpm
 {
@@ -57,7 +68,6 @@
 	border-bottom: 2px solid #0099ff;
 	padding-bottom: 5px;
 }
-
 	/* Underline Labels in Channel List */
 div.mainContent-2h-GEV
 {
@@ -73,7 +83,6 @@ div.mainContent-2h-GEV
 {
 	text-align: center;
 }
-
 	/* Custom Roles */
 .role-2irmRk
 {
@@ -85,7 +94,6 @@ div.mainContent-2h-GEV
 	height: 5;
 	width: 5;
 }
-
 	/* Custom Ping Badge */
 .numberBadge-2s8kKX
 {
@@ -105,7 +113,6 @@ div.mainContent-2h-GEV
 {
 	pointer-events: none;
 }
-
 /* Special Codeblocks */
 code.markup-2BOw-j
 {
