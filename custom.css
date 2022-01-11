@@ -25,26 +25,27 @@
 }
 .emoji.jumboable
 {
-	width: 50px;
-	height: 50px;
+	width: 48px;
+	height: 48px;
 	margin-top: 0;
 }
-.activityEmoji-2GDGtF,
-.activityEmoji-1AR8K6
+.activityEmoji-SDBJp8,
+.activityEmoji-24oKjc
 {
 	width: 25px;
 	height: 25px;
 }
 	/* Squares */
-.wrapper-3t9DeA foreignObject,
-.wrapper-25eVIn foreignObject
+.wrapper-3kah-n foreignObject,
+.wrapper-28eC3z foreignObject
 {
 	mask: none;
 }
-.avatar-1BDn8e,
-.icon-27yU2q,
-.wrapperSimple-19ogV2,
-.replyAvatar-1K9Wmr
+.avatar-2e8lTP,
+.icon-3AqZ2e,
+.wrapperSimple-Js2rIO,
+.replyAvatar-1K9Wmr,
+.baseShapeRound-3epLEv
 {
 	border-radius: 0 !important;
 }
@@ -54,23 +55,23 @@
 	border-bottom: 0
 } */
 	/* Blue Mention Sign */
-.essahe-2qnXI6 .mentioned-xhSam7 .selected-2P5D_Z,
-.mouse-mode .mentioned-xhSam7:hover
+.essahe-2qnXI6 .mentioned-Tre-dv .selected-2P5D_Z,
+.mouse-mode .mentioned-Tre-dv:hover
 {
 	background: rgba(0, 100, 255, 0.1)
 }
-.mentioned-xhSam7:before
+.mentioned-Tre-dv:before
 {
 	background-color: #0099ff;
 }
 	/* Underline Roles in Member List & DMs */
-.membersGroup-v9BXpm
+.membersGroup-2eiWxl
 {
 	text-align: center;
 	overflow: visible;
 	margin-bottom: 10px;
 }
-.membersGroup-v9BXpm::after
+.membersGroup-2eiWxl::after
 {
 	content: "";
 	display: block;
@@ -81,7 +82,7 @@
 }
 	/* Underline Labels in Channel List */
 /* .wrapper-CU3qI5, .channels-Ie2l6A .wrapperHovered-28fu1D */
-div.mainContent-2h-GEV
+div.mainContent-uDGa6R
 {
 	padding-top: 28px;
 	padding-right: 8px;
@@ -91,7 +92,7 @@ div.mainContent-2h-GEV
 	margin: 0;
 	border-bottom: 2px solid #0099ff;
 }
-.name-3l27Hl .overflow-WK9Ogt
+.name-3BUDLf .overflow-1wOqNV
 {
 	text-align: center;
 }
@@ -107,7 +108,7 @@ div.mainContent-2h-GEV
 	width: 5;
 }
 	/* Custom Ping Badge */
-.numberBadge-2s8kKX
+.numberBadge-37OJ3S
 {
 	-webkit-text-stroke: 2.25px #0099ff;
 	font-size: 44px;
@@ -126,11 +127,11 @@ div.mainContent-2h-GEV
 	pointer-events: none;
 }
 	/* Extended Channel Sidebar */
-.sidebar-2K8pFh
+.sidebar-1tnWFu
 {
 	width: var(--sidebar-width);
 }
-.channel-2QD9_O
+.channel-1Shao0
 {
 	max-width: var(--sidebar-width);
 }
