@@ -125,7 +125,7 @@ div.mainContent-2h-GEV
 {
 	pointer-events: none;
 }
-/* Extended Channel Sidebar */
+	/* Extended Channel Sidebar */
 .sidebar-2K8pFh
 {
 	width: var(--sidebar-width);
@@ -134,7 +134,7 @@ div.mainContent-2h-GEV
 {
 	max-width: var(--sidebar-width);
 }
-/* Special Codeblocks */
+	/* Special Codeblocks */
 code.markup-2BOw-j
 {
 	font-family: 'Courier New', Courier, monospace
