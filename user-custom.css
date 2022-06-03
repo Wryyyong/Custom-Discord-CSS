@@ -31,14 +31,15 @@
 }
 	/* Squares */
 .wrapper-3kah-n foreignObject,
-.wrapper-28eC3z foreignObject
+.wrapper-28eC3z foreignObject,
+.wrapper-1VLyxH foreignObject
 {
 	mask: none;
 }
 .avatar-2e8lTP,
 .icon-3AqZ2e,
 .wrapperSimple-Js2rIO,
-.replyAvatar-1K9Wmr,
+.replyAvatar-sHd2sU,
 .baseShapeRound-3epLEv
 {
 	border-radius: 0 !important;
@@ -115,7 +116,7 @@ div.mainContent-uDGa6R
 	pointer-events: none;
 }
 	/* Special Codeblocks */
-code.markup-2BOw-j
+code.scrollbarGhostHairline-2LpzZ9
 {
 	font-family: 'Courier New', Courier, monospace
 }
