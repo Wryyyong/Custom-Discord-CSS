@@ -1,13 +1,14 @@
-	/* Imports */
+	/* Imports
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
-	/* Main Shit */
+*/	/* Main Shit */
 :root
 {
-	--main-color:#0066ff !important;
-	--hover-color:#003399 !important;
+	--main-color: #0099ffff !important;
+	--hover-color: #0066ffff !important;
 	--background-blur: 0px !important;
 	--background-brightness: 100% !important;
-	--background-mentioned: rgba(0, 153, 255, 0.1);
+	--background-mentioned: #0099ff1a !important;
+	--background-mentioned-hover: #0066ff1a !important;
 	--sidebar-width: 300px;
 	--rs-small-spacing: 1px;
 	--rs-medium-spacing: 2px;
@@ -63,7 +64,7 @@
 }
 .mentioned-Tre-dv:before
 {
-	background-color: #0099ff;
+	background-color: var(--main-color);
 }
 	/* Underline Roles in Member List & DMs */
 .membersGroup-2eiWxl
@@ -78,7 +79,7 @@
 	display: block;
 	height: 1px;
 	width: 100%;
-	border-bottom: 2px solid #0099ff;
+	border-bottom: 2px solid var(--main-color);
 	padding-bottom: 5px;
 }
 	/* Underline Labels in Channel List */
@@ -91,7 +92,7 @@ div.mainContent-uDGa6R
 	padding: 0 0 8px 0;
 	height: auto;
 	margin: 0;
-	border-bottom: 2px solid #0099ff;
+	border-bottom: 2px solid var(--main-color);
 }
 .name-3BUDLf .overflow-1wOqNV
 {
@@ -111,7 +112,7 @@ div.mainContent-uDGa6R
 	/* Custom Ping Badge */
 .numberBadge-37OJ3S
 {
-	-webkit-text-stroke: 2.25px #0099ff;
+	-webkit-text-stroke: 2.25px var(--main-color);
 	font-size: 44px;
 	color: rgb(255, 255, 255);
 	min-height: 48px;
