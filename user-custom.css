@@ -34,19 +34,29 @@
 	height: 25px;
 }
 	/* Squares */
-.wrapper-3kah-n foreignObject,
-.wrapper-28eC3z foreignObject,
-.wrapper-1VLyxH foreignObject
+.wrapper-2PSQCG foreignObject,
+.wrapper-3Un6-K foreignObject
 {
 	mask: none;
 }
 .avatar-2e8lTP,
+.avatar-3FKimL,
 .icon-3AqZ2e,
-.wrapperSimple-Js2rIO,
+.iconInactive-26M06U,
+.wrapperSimple-2SFl9K,
 .replyAvatar-sHd2sU,
-.baseShapeRound-3epLEv
+.baseShapeRound-3epLEv,
+.expandedFolderBackground-1kSAf6,
+.folderIconWrapper-1oRIZr,
+.executedCommandAvatar-3oOnb1
 {
 	border-radius: 0 !important;
+}
+.expandedFolderBackground-1kSAf6
+{
+	left: 8px;
+	bottom: 4px;
+	width: 56px;
 }
 	/* Blue Mention Sign */
 .essahe-2qnXI6 .mentioned-Tre-dv .selected-2P5D_Z,
