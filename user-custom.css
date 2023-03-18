@@ -1,19 +1,10 @@
-	/* Imports
-@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
-*/	/* Main Shit */
+	/* Main Shit */
 :root
 {
 	--main-color: #0099ffff !important;
 	--hover-color: #0066ffff !important;
 	--background-mentioned: #0099ff1a !important;
 	--background-mentioned-hover: #0066ff1a !important;
-	--rs-small-spacing: 1px;
-	--rs-medium-spacing: 2px;
-	--rs-large-spacing: 2px;
-	--rs-small-width: 2px;
-	--rs-medium-width: 4px;
-	--rs-large-width: 4px;
-	--rs-avatar-shape: 0%;
 }
 	/* Jumbo Emoji */
 .emoji
@@ -98,17 +89,6 @@ div.mainContent-uDGa6R
 .name-3BUDLf .overflow-1wOqNV
 {
 	text-align: center;
-}
-	/* Custom Roles */
-.role-2irmRk
-{
-	border-radius: 0;
-}
-.roleCircle-3xAZ1j
-{
-	border-radius: 0;
-	height: 5;
-	width: 5;
 }
 	/* Custom Ping Badge */
 .numberBadge-37OJ3S

@@ -1,6 +1,6 @@
 	/* Imports
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
-*/	/* Main Shit */
+	/* Main Shit */
 :root
 {
 	--main-color: #0099ffff !important;
@@ -61,11 +61,6 @@
 	bottom: 4px;
 	width: 56px;
 }
-	/* Remove Message Borders
-.containerCozy-jafyvG .divider-32i8lo
-{
-	border-bottom: 0
-} */
 	/* Blue Mention Sign */
 .essahe-2qnXI6 .mentioned-Tre-dv .selected-2P5D_Z,
 .mouse-mode .mentioned-Tre-dv:hover
@@ -93,7 +88,6 @@
 	padding-bottom: 5px;
 }
 	/* Underline Labels in Channel List */
-/* .wrapper-CU3qI5, .channels-Ie2l6A .wrapperHovered-28fu1D */
 div.mainContent-uDGa6R
 {
 	padding-top: 28px;
@@ -107,17 +101,6 @@ div.mainContent-uDGa6R
 .name-3BUDLf .overflow-1wOqNV
 {
 	text-align: center;
-}
-	/* Custom Roles */
-.role-2irmRk
-{
-	border-radius: 0;
-}
-.roleCircle-3xAZ1j
-{
-	border-radius: 0;
-	height: 5;
-	width: 5;
 }
 	/* Custom Ping Badge */
 .numberBadge-37OJ3S
@@ -138,7 +121,7 @@ div.mainContent-uDGa6R
 {
 	pointer-events: none;
 }
-	/* Extended Channel Sidebar */
+	/* Extended Channel Sidebar
 .sidebar-1tnWFu
 {
 	width: var(--sidebar-width);
@@ -146,7 +129,7 @@ div.mainContent-uDGa6R
 .channel-1Shao0
 {
 	max-width: var(--sidebar-width);
-}
+} */
 	/* Special Codeblocks */
 code.scrollbarGhostHairline-2LpzZ9
 {
