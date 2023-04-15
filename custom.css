@@ -62,32 +62,27 @@
 .mentioned-Tre-dv:before {
 	background-color: var(--main-color);
 }
-	/* Underline Roles in Member List & DMs */
-.membersGroup-2eiWxl {
+	/* Underline Labels in Channels, Member Lists and DMs */
+.membersGroup-2eiWxl,
+.iconVisibility-3pLDEs,
+.name-3BUDLf .overflow-1wOqNV {
+	color: var(--main-color);
 	text-align: center;
 	overflow: visible;
+}
+.membersGroup-2eiWxl,
+.iconVisibility-3pLDEs {
 	margin-bottom: 10px;
+}
+div.mainContent-uDGa6R,
+.membersGroup-2eiWxl::after {
+	border-bottom: 2px solid var(--main-color);
+	padding-bottom: 5px;
+	height: auto;
 }
 .membersGroup-2eiWxl::after {
 	content: "";
 	display: block;
-	height: 1px;
-	width: 100%;
-	border-bottom: 2px solid var(--main-color);
-	padding-bottom: 5px;
-}
-	/* Underline Labels in Channel List */
-div.mainContent-uDGa6R {
-	padding-top: 28px;
-	padding-right: 8px;
-	padding-left: 18px;
-	padding: 0 0 8px 0;
-	height: auto;
-	margin: 0;
-	border-bottom: 2px solid var(--main-color);
-}
-.name-3BUDLf .overflow-1wOqNV {
-	text-align: center;
 }
 	/* Custom Ping Badge */
 .numberBadge-37OJ3S {
