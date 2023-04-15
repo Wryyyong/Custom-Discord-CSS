@@ -1,8 +1,7 @@
 	/* Imports
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 	/* Main Shit */
-:root
-{
+:root {
 	--main-color: #0099ffff !important;
 	--hover-color: #0066ffff !important;
 	--background-blur: 0px !important;
@@ -19,27 +18,23 @@
 	--rs-avatar-shape: 0%;
 }
 	/* Jumbo Emoji */
-.emoji
-{
+.emoji {
 	width: 35px;
 	height: 35px;
 }
-.emoji.jumboable
-{
+.emoji.jumboable {
 	width: 48px;
 	height: 48px;
 	margin-top: 0;
 }
 .activityEmoji-SDBJp8,
-.activityEmoji-24oKjc
-{
+.activityEmoji-24oKjc {
 	width: 25px;
 	height: 25px;
 }
 	/* Squares */
 .wrapper-2PSQCG foreignObject,
-.wrapper-3Un6-K foreignObject
-{
+.wrapper-3Un6-K foreignObject {
 	mask: none;
 }
 .avatar-2e8lTP,
@@ -51,35 +46,29 @@
 .baseShapeRound-3epLEv,
 .expandedFolderBackground-1kSAf6,
 .folderIconWrapper-1oRIZr,
-.executedCommandAvatar-3oOnb1
-{
+.executedCommandAvatar-3oOnb1 {
 	border-radius: 0 !important;
 }
-.expandedFolderBackground-1kSAf6
-{
+.expandedFolderBackground-1kSAf6 {
 	left: 8px;
 	bottom: 4px;
 	width: 56px;
 }
 	/* Blue Mention Sign */
 .essahe-2qnXI6 .mentioned-Tre-dv .selected-2P5D_Z,
-.mouse-mode .mentioned-Tre-dv:hover
-{
-	background: rgba(0, 100, 255, 0.1)
+.mouse-mode .mentioned-Tre-dv:hover {
+	background: rgba(0,100,255,0.1)
 }
-.mentioned-Tre-dv:before
-{
+.mentioned-Tre-dv:before {
 	background-color: var(--main-color);
 }
 	/* Underline Roles in Member List & DMs */
-.membersGroup-2eiWxl
-{
+.membersGroup-2eiWxl {
 	text-align: center;
 	overflow: visible;
 	margin-bottom: 10px;
 }
-.membersGroup-2eiWxl::after
-{
+.membersGroup-2eiWxl::after {
 	content: "";
 	display: block;
 	height: 1px;
@@ -88,8 +77,7 @@
 	padding-bottom: 5px;
 }
 	/* Underline Labels in Channel List */
-div.mainContent-uDGa6R
-{
+div.mainContent-uDGa6R {
 	padding-top: 28px;
 	padding-right: 8px;
 	padding-left: 18px;
@@ -98,40 +86,33 @@ div.mainContent-uDGa6R
 	margin: 0;
 	border-bottom: 2px solid var(--main-color);
 }
-.name-3BUDLf .overflow-1wOqNV
-{
+.name-3BUDLf .overflow-1wOqNV {
 	text-align: center;
 }
 	/* Custom Ping Badge */
-.numberBadge-37OJ3S
-{
+.numberBadge-37OJ3S {
 	-webkit-text-stroke: 2.25px var(--main-color);
 	font-size: 44px;
-	color: rgb(255, 255, 255);
+	color: rgb(255,255,255);
 	min-height: 48px;
 	min-width: 48px;
-	background-color: rgba(0, 0, 0, 0.5) !important;
+	background-color: rgba(0,0,0,0.5) !important;
 }
-.base-PmTxvP
-{
+.base-PmTxvP {
 	border-radius: 0px;
 }
 .lowerBadge-29hYVK,
-.upperBadge-2XnnGB
-{
+.upperBadge-2XnnGB {
 	pointer-events: none;
 }
 	/* Extended Channel Sidebar
-.sidebar-1tnWFu
-{
+.sidebar-1tnWFu {
 	width: var(--sidebar-width);
 }
-.channel-1Shao0
-{
+.channel-1Shao0 {
 	max-width: var(--sidebar-width);
 } */
 	/* Special Codeblocks */
-code.scrollbarGhostHairline-2LpzZ9
-{
-	font-family: 'Courier New', Courier, monospace
+code.scrollbarGhostHairline-2LpzZ9 {
+	font-family: 'Courier New',Courier,monospace
 }
