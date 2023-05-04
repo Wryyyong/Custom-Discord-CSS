@@ -5,15 +5,10 @@
 	--background-mentioned: #0099ff1a !important;
 	--background-mentioned-hover: #0066ff1a !important;
 }
-	/* Jumbo Emoji */
+	/* Bigger Emoji */
 .emoji {
-	width: 35px;
-	height: 35px;
-}
-.emoji.jumboable {
-	width: 48px;
-	height: 48px;
-	margin-top: 0;
+	width: 2em;
+	height: 2em;
 }
 .activityEmoji-SDBJp8,
 .activityEmoji-24oKjc {
