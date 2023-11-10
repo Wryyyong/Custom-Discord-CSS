@@ -1,5 +1,5 @@
 	/* Imports
-@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css"); */
 	/* Main Shit */
 :root {
 	--main-color: #0099ffff !important;
@@ -22,65 +22,57 @@
 	width: 2em;
 	height: 2em;
 }
-.activityEmoji-SDBJp8,
-.activityEmoji-24oKjc {
+.activityEmoji_f1bb5,
+.activityEmoji_e954be {
 	width: 25px;
 	height: 25px;
 }
 	/* Squares */
-.wrapper-2PSQCG foreignObject,
-.wrapper-3Un6-K foreignObject {
+.wrapper_edb6e0 foreignObject,
+.wrapper__3af0b foreignObject,
+.bannerSVGWrapper__3e7b0 foreignObject {
 	mask: none;
 }
-.avatar-2e8lTP,
-.avatar-3FKimL,
-.icon-3AqZ2e,
-.iconInactive-26M06U,
-.wrapperSimple-2SFl9K,
-.replyAvatar-sHd2sU,
-.baseShapeRound-3epLEv,
-.expandedFolderBackground-1kSAf6,
-.folderIconWrapper-1oRIZr,
-.executedCommandAvatar-3oOnb1 {
+.avatar__08316,
+.avatar__7bd22L,
+.icon_c48348,
+.wrapperSimple_a34580,
+.replyAvatar_cea07c,
+.baseShapeRound__95d0f,
+.folderIconWrapper__72239,
+.executedCommandAvatar__939bc,
+.expandedFolderBackground__1bec6 {
 	border-radius: 0 !important;
 }
-.expandedFolderBackground-1kSAf6 {
-	left: 8px;
-	bottom: 4px;
-	width: 56px;
-}
 	/* Blue Mention Sign */
-.essahe-2qnXI6 .mentioned-Tre-dv .selected-2P5D_Z,
-.mouse-mode .mentioned-Tre-dv:hover {
+.mentioned__58017:hover {
 	background: rgba(0,100,255,0.1)
 }
-.mentioned-Tre-dv:before {
+.mentioned__58017:before {
 	background-color: var(--main-color);
 }
 	/* Underline Labels in Channels, Member Lists and DMs */
-.membersGroup-2eiWxl,
-.iconVisibility-3pLDEs,
-.name-3BUDLf .overflow-1wOqNV {
+.membersGroup__85843,
+.name__590d6 .overflow__87fe8 {
 	color: var(--main-color);
 	text-align: center;
 	overflow: visible;
 }
-.membersGroup-2eiWxl,
-.iconVisibility-3pLDEs {
+.membersGroup__85843 {
 	margin-bottom: 10px;
 }
-div.mainContent-uDGa6R,
-.membersGroup-2eiWxl::after {
+div.mainContent_a0b319,
+.membersGroup__85843::after {
 	border-bottom: 2px solid var(--main-color);
 	padding-bottom: 5px;
 	height: auto;
 }
-.membersGroup-2eiWxl::after {
+.membersGroup__85843::after {
 	content: "";
 	display: block;
 }
 	/* Custom Ping Badge */
-.numberBadge-37OJ3S {
+.numberBadge__50328 {
 	-webkit-text-stroke: 2.25px var(--main-color);
 	font-size: 44px;
 	color: rgb(255,255,255);
@@ -88,21 +80,14 @@ div.mainContent-uDGa6R,
 	min-width: 48px;
 	background-color: rgba(0,0,0,0.5) !important;
 }
-.base-PmTxvP {
-	border-radius: 0px;
-}
-.lowerBadge-29hYVK,
-.upperBadge-2XnnGB {
+.lowerBadge__669e7 {
 	pointer-events: none;
 }
 	/* Extended Channel Sidebar
-.sidebar-1tnWFu {
+.sidebar_ded4b5 {
 	width: var(--sidebar-width);
-}
-.channel-1Shao0 {
-	max-width: var(--sidebar-width);
 } */
 	/* Special Codeblocks */
-code.scrollbarGhostHairline-2LpzZ9 {
+code.scrollbarGhostHairline_c9a45f {
 	font-family: 'Courier New',Courier,monospace
 }
