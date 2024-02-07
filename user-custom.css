@@ -23,6 +23,7 @@
 }
 .avatar__08316,
 .avatar__7bd22L,
+.avatar__0e7e1,
 .icon_c48348,
 .wrapperSimple_a34580,
 .replyAvatar_cea07c,
@@ -60,18 +61,36 @@ div.mainContent_a0b319,
 	display: block;
 }
 	/* Custom Ping Badge */
-.numberBadge__50328 {
+.wrapper__3af0b .numberBadge__50328 {
 	-webkit-text-stroke: 2.25px var(--main-color);
 	font-size: 44px;
-	color: rgb(255,255,255);
 	min-height: 48px;
 	min-width: 48px;
-	background-color: rgba(0,0,0,0.5) !important;
+	letter-spacing: 0px;
+	background-color: rgba(0,0,0,0.330719) !important;
+}
+.mentionsBadge_c2f85b .numberBadge__50328,
+.content_c6490e .numberBadge__50328 {
+	-webkit-text-stroke: 1.125px var(--main-color);
+	font-size: 24px;
+	min-height: 0px;
+	min-width: 0px;
+	letter-spacing: 0px;
+	background-color: rgba(0,0,0,0) !important;
 }
 .lowerBadge__669e7 {
 	pointer-events: none;
 }
 	/* Special Codeblocks */
-code.scrollbarGhostHairline_c9a45f {
-	font-family: 'Courier New',Courier,monospace
+.codeContainer__1ded4 code,
+.textContainer__709ff code {
+	font-family: 'Courier New',Courier,monospace;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+	/* [TEMP] Channel List Size Fix */
+.name__8d1ec {
+	font-size: 16px;
+	line-height: 1.25em;
 }
