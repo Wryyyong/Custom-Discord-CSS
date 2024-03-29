@@ -24,62 +24,55 @@
 	width: 2em;
 	height: 2em;
 }
-.activityEmoji_f1bb5,
-.activityEmoji_e954be {
+.activityEmoji_b6afc2,
+.activityEmoji__2ca8c {
 	width: 25px;
 	height: 25px;
 }
 
 	/* Squares */
-.wrapper_edb6e0 foreignObject,
-.wrapper__3af0b foreignObject,
-.bannerSVGWrapper__3e7b0 foreignObject {
+/* Member list */ .wrapper__3ed10 foreignObject,
+/* Server icons */ .wrapper__9916c foreignObject,
+/* Profile modal hint */ .avatarWrapperNormal__36eec foreignObject,
+/* Profile banners */ .bannerSVGWrapper__8a38c foreignObject {
 	mask: none;
 }
-.avatar__08316,
-.avatar__7bd22L,
-.avatar__0e7e1,
-.icon_c48348,
-.wrapperSimple_a34580,
-.replyAvatar_cea07c,
-.baseShapeRound__95d0f,
-.folderIconWrapper__72239,
-.executedCommandAvatar__939bc,
-.expandedFolderBackground__1bec6 {
+/* Text chat */ .avatar__08316,
+/* Voice chat */ .icon_c48348,
+/* Replies */ .replyAvatar__4ba85,
+/* Commands */ .executedCommandAvatar_cfc856,
+/* Notification icons */ .baseShapeRound_c1de89,
+/* Server icons */ .wrapperSimple__9e2b0,
+/* Server icons in closed folders */ .iconInactive__8c603,
+/* Folder background */ .expandedFolderBackground_b1385f {
 	border-radius: 0 !important;
 }
 
 	/* Blue Mention Sign */
-.mentioned__58017:hover {
-	background: rgba(0,100,255,0.1)
-}
-.mentioned__58017:before {
-	background-color: var(--main-color);
+.mentioned_fa6fd2:before {
+	background: var(--main-color);
 }
 
 	/* Underline Labels in Channels, Member Lists and DMs */
-.membersGroup__85843,
-.name__590d6 .overflow__87fe8 {
+/* Channel list */ .name__27f04 .overflow__993fa,
+/* Member list */ .membersGroup_cad095 {
 	color: var(--main-color);
 	text-align: center;
 	overflow: visible;
 }
-.membersGroup__85843 {
-	margin-bottom: 10px;
-}
-div.mainContent_a0b319,
-.membersGroup__85843::after {
+/* Channel list */ div.mainContent__2333c,
+/* Member list */ .membersGroup_cad095::after {
 	border-bottom: 2px solid var(--main-color);
 	padding-bottom: 5px;
-	height: auto;
-}
-.membersGroup__85843::after {
 	content: "";
 	display: block;
 }
+/* Member list */ .membersGroup_cad095 {
+	margin-bottom: 10px;
+}
 
 	/* Custom Ping Badge */
-.wrapper__3af0b .numberBadge__50328 {
+/* Server icons */ .wrapper__9916c .numberBadge__40d6f {
 	-webkit-text-stroke: 2.25px var(--main-color);
 	font-size: 44px;
 	min-height: 48px;
@@ -87,8 +80,7 @@ div.mainContent_a0b319,
 	letter-spacing: 0px;
 	background-color: rgba(0,0,0,0.330719) !important;
 }
-.mentionsBadge_c2f85b .numberBadge__50328,
-.content_c6490e .numberBadge__50328 {
+/* Channel list */ .content__690c5 .numberBadge__40d6f {
 	-webkit-text-stroke: 1.125px var(--main-color);
 	font-size: 24px;
 	min-height: 0px;
@@ -96,25 +88,21 @@ div.mainContent_a0b319,
 	letter-spacing: 0px;
 	background-color: rgba(0,0,0,0) !important;
 }
-.lowerBadge__669e7 {
-	pointer-events: none;
-}
-
-	/* Extended Channel Sidebar
-.sidebar_ded4b5 {
-	width: var(--sidebar-width);
-} */
 
 	/* Special Codeblocks */
-.codeContainer__1ded4 code,
-.textContainer__709ff code {
+/* Code blocks */ .codeContainer__49b46 code,
+/* Text files */ .textContainer__65f57 code {
 	font-family: 'Courier New',Courier,monospace;
 	font-size: 12px;
 	line-height: 14px;
 }
 
-	/* [TEMP] Channel List Size Fix */
-.name__8d1ec {
-	font-size: 16px;
-	line-height: 1.25em;
-}
+	/* Better Image Filter
+img {
+	image-rendering: pixelated;
+} */
+
+	/* Extended Channel Sidebar
+.sidebar_ded4b5 {
+	width: var(--sidebar-width);
+} */
