@@ -16,6 +16,10 @@
 	width: 25px;
 	height: 25px;
 }
+.hangStatusIcon__367ef {
+	width: 16px;
+	height: 16px;
+}
 
 	/* Squares */
 /* Member list */ .wrapper__3ed10 foreignObject,
@@ -25,7 +29,7 @@
 	mask: none;
 }
 /* Text chat */ .avatar__08316,
-/* Voice chat */ .icon_c48348,
+/* Voice chat */ .avatar_a56eee,
 /* Replies */ .replyAvatar__4ba85,
 /* Commands */ .executedCommandAvatar_cfc856,
 /* Notification icons */ .baseShapeRound_c1de89,
@@ -78,7 +82,8 @@
 
 	/* Special Codeblocks */
 /* Code blocks */ .codeContainer__49b46 code,
-/* Text files */ .textContainer__65f57 code {
+/* Text files */ .textContainer__65f57 code,
+/* Text file modal */ .modalTextContainer_ce11a8 code {
 	font-family: 'Courier New',Courier,monospace;
 	font-size: 12px;
 	line-height: 14px;
