@@ -2,8 +2,8 @@
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 */
 
-	/* Main Shit */
 :root {
+	/* Custom vars */
 	--main-color: #0099ffff !important;
 	--hover-color: #0066ffff !important;
 	--background-blur: 0px !important;
@@ -16,6 +16,21 @@
 	--rs-large-spacing: 2px;
 	--rs-medium-width: 4px;
 	--rs-avatar-shape: 0%;
+
+	/* Discord vars */
+	--red-400: var(--main-color);
+	--red-430: var(--main-color);
+	--divider-color: var(--main-color);
+}
+
+	/* Hide "Discover" button */
+.channelAppLauncher_e6e74f,
+.footer__214dc,
+.buttonContainer_e6e74f {
+	display: none;
+}
+.unreadMentionsFixedFooter_ef3116 {
+	bottom: 0;
 }
 
 	/* Bigger Emoji */
@@ -23,58 +38,61 @@
 	width: 2em;
 	height: 2em;
 }
-/* Sidebar */ .activityEmoji_c91bad,
-/* Profile */ .customStatus_afed89 .customStatusEmoji_afed89 {
+/* Sidebar */ .activityEmoji__5d473,
+/* Profile */ .customStatus__37e49 .statusEmoji_ab8609 {
 	width: 25px;
 	height: 25px;
 }
-/* Voice chat activity */ .hangStatusIcon_cdc675 {
+/* Voice chat activity */ .hangStatusIcon__07f91 {
 	width: 16px;
 	height: 16px;
 }
 
 	/* Squares */
-/* Member list */ .wrapper_c51b4e foreignObject,
-/* Server icons */ .wrapper_c5f96a foreignObject,
-/* Profile banners */ .bannerSVGWrapper_b32cc2 foreignObject {
+/* Member list, DM call users */ .wrapper__44b0c foreignObject,
+/* Server icons */ .wrapper_cc5dd2 foreignObject,
+/* Profile banners */ .mask__68edb foreignObject,
+/* Emote board server icons */ .categoryItem_b9ee0c foreignObject,
+/* Soundboard server icons */ .category_a1e0e0 foreignObject {
 	mask: none;
 }
-/* Text chat */ .avatar_ec86aa,
-/* Voice chat */ .avatar_cdc675,
-/* Replies */ .replyAvatar_ec86aa,
-/* Commands */ .executedCommandAvatar_ec86aa,
-/* Notification icons */ .baseShapeRound_df8943,
-/* Server icons */ .wrapperSimple_c5f96a,
-/* Server icons in closed folders */ .iconInactive_f11207,
-/* Folder background */ .expandedFolderBackground_bc7085 {
+/* Text chat */ .avatar_c19a55,
+/* Voice chat */ .avatar__07f91,
+/* Muted/deafened icons */ .status_db83a2,
+/* Speaking border */ .border_db83a2m,
+/* "LIVE" icon */ .liveShapeRound_a7acae,
+/* DM server-specific avatars */ .avatar__488b1,
+/* DM call users */ .voiceAvatar_db83a2,
+/* Replies */ .replyAvatar_c19a55,
+/* Commands */ .executedCommandAvatar_c19a55,
+/* Notification icons */ .baseShapeRound__2b1f5,
+/* Server icons */ .wrapperSimple_cc5dd2,
+/* Server icons in closed folders */ .iconInactive_f34534,
+/* Folder background */ .expandedFolderBackground__48112,
+/* Game icons */ .gameIcon_a9e62c, .medium_a9e62c {
 	border-radius: 0 !important;
 }
 
-	/* Blue Mention Sign */
-.mentioned_d5deea:before {
-	background: var(--main-color);
-}
-
 	/* Underline Labels in Channels, Member Lists and DMs */
-/* Channel list */ .name_a08117 .overflow_c74e70,
-/* Member list */ .membersGroup_cbd271 {
+/* Channel list */ .name__29444 .overflow__82b15,
+/* Member list */ .membersGroup_c8ffbb {
 	color: var(--main-color);
 	text-align: center;
 	overflow: visible;
 }
-/* Channel list */ div.mainContent_a08117,
-/* Member list */ .membersGroup_cbd271::after {
+/* Channel list */ div.mainContent__29444,
+/* Member list */ .membersGroup_c8ffbb::after {
 	border-bottom: 2px solid var(--main-color);
 	padding-bottom: 5px;
 	content: "";
 	display: block;
 }
-/* Member list */ .membersGroup_cbd271 {
+/* Member list */ .membersGroup_c8ffbb {
 	margin-bottom: 10px;
 }
 
 	/* Custom Ping Badge */
-/* Server icons */ .wrapper_c5f96a .numberBadge_df8943 {
+/* Server icons */ .wrapper_cc5dd2 .numberBadge__2b1f5 {
 	-webkit-text-stroke: 2.25px var(--main-color);
 	font-size: 44px;
 	min-height: 48px;
@@ -82,7 +100,7 @@
 	letter-spacing: 0px;
 	background-color: rgba(0,0,0,0.330719) !important;
 }
-/* Channel list */ .content_eed6a8 .numberBadge_df8943 {
+/* Channel list */ .content__99f8c .numberBadge__2b1f5 {
 	-webkit-text-stroke: 1.125px var(--main-color);
 	font-size: 24px;
 	min-height: 0px;
@@ -92,9 +110,9 @@
 }
 
 	/* Special Codeblocks */
-/* Code blocks */ .codeContainer_d6076c code,
-/* Text files */ .textContainer_ad9cbd code,
-/* Text file modal */ .modalTextContainer_ad9cbd code {
+/* Code blocks */ .codeContainer__75297 code,
+/* Text files */ .textContainer__4d95d code,
+/* Text file modal */ .modalTextContainer__4d95d code {
 	font-family: 'Courier New',Courier,monospace;
 	font-size: 12px;
 	line-height: 14px;
@@ -106,6 +124,6 @@ img {
 } */
 
 	/* Extended Channel Sidebar
-.sidebar_ded4b5 {
-	width: var(--sidebar-width);
+html:not(.visual-refresh) .sidebar_c48ade:not(.hidden_c48ade) {
+	width: var(--sidebar-width) !important;
 } */
