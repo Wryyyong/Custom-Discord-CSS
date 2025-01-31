@@ -38,7 +38,7 @@
 	width: 2em;
 	height: 2em;
 }
-/* Sidebar */ .activityEmoji__5d473,
+/* Sidebar */ .emoji__8ac07,
 /* Profile */ .customStatus__37e49 .statusEmoji_ab8609 {
 	width: 25px;
 	height: 25px;
@@ -69,7 +69,8 @@
 /* Server icons */ .wrapperSimple_cc5dd2,
 /* Server icons in closed folders */ .iconInactive_f34534,
 /* Folder background */ .expandedFolderBackground__48112,
-/* Game icons */ .gameIcon_a9e62c, .medium_a9e62c {
+/* Game icons */ .gameIcon__8c6c2,
+/* Rewards badge */ .newBadge__98c7b {
 	border-radius: 0 !important;
 }
 
