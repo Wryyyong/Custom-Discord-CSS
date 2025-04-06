@@ -14,7 +14,7 @@
 	/* Hide "Discover" button */
 .channelAppLauncher_e6e74f,
 .footer__214dc,
-.buttonContainer_e6e74f {
+.buttonContainer_c19a55 {
 	display: none;
 }
 .unreadMentionsFixedFooter_ef3116 {
@@ -27,7 +27,7 @@
 	height: 2em;
 }
 /* Sidebar */ .emoji__8ac07,
-/* Profile */ .customStatus__37e49 .statusEmoji_ab8609 {
+/* Profile */ .emoji_c9d15c {
 	width: 25px;
 	height: 25px;
 }
@@ -37,20 +37,28 @@
 }
 
 	/* Squares */
-/* Member list, DM call users */ .wrapper__44b0c foreignObject,
+/* Group DM icon */ .avatar__20a53 foreignObject,
+/* Member list */ .wrapper__44b0c foreignObject,
+/* DM call users */ .callAvatarMask_f910d0 foreignObject,
 /* Server icons */ .wrapper_cc5dd2 foreignObject,
 /* Profile banners */ .mask__68edb foreignObject,
 /* Emote board server icons */ .categoryItem_b9ee0c foreignObject,
 /* Soundboard server icons */ .category_a1e0e0 foreignObject {
 	mask: none;
 }
+/* User modal hover */ .overlay__75742:after,
 /* Text chat */ .avatar_c19a55,
 /* Voice chat */ .avatar__07f91,
+/* Voice channel tiles */ .tile__90dc5,
+/* Voice channel tile avatars */ .avatarWrapper_fb62e2,
 /* Muted/deafened icons */ .status_db83a2,
 /* Speaking border */ .border_db83a2m,
 /* "LIVE" icon */ .liveShapeRound_a7acae,
 /* DM server-specific avatars */ .avatar__488b1,
-/* DM call users */ .voiceAvatar_db83a2,
+/* DM call ringing */ .wrapper_f910d0.ringingIncoming_f910d0:after, .wrapper_f910d0.ringingOutgoing_f910d0:after,
+/* DM call users */ .voiceAvatar_f910d0,
+/* DM call speaking */ .speaking_f910d0,
+/* DM call icons */ .status_f910d0,
 /* Replies */ .replyAvatar_c19a55,
 /* Commands */ .executedCommandAvatar_c19a55,
 /* Notification icons */ .baseShapeRound__2b1f5,
@@ -79,13 +87,16 @@
 /* Member list */ .membersGroup_c8ffbb {
 	margin-bottom: 10px;
 }
+/* Member list */ .mainContent__29444 .name__29444 {
+	flex: 1 1 auto !important;
+}
 
 	/* Custom Ping Badge */
 /* Server icons */ .wrapper_cc5dd2 .numberBadge__2b1f5 {
-	-webkit-text-stroke: 2.25px var(--main-color);
-	font-size: 44px;
-	min-height: 48px;
-	min-width: 48px;
+	-webkit-text-stroke: 2px var(--main-color);
+	font-size: 36px;
+	min-height: 40px;
+	min-width: 40px;
 	letter-spacing: 0px;
 	background-color: rgba(0,0,0,0.330719) !important;
 }
