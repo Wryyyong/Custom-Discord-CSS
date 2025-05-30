@@ -25,13 +25,8 @@
 }
 
 	/* Hide "Discover" button */
-.channelAppLauncher_e6e74f,
-.footer__214dc,
-.buttonContainer_c19a55 {
+.wrapper_cc5dd2:has(.discoveryIcon_ef3116) {
 	display: none;
-}
-.unreadMentionsFixedFooter_ef3116 {
-	bottom: 0;
 }
 
 	/* Bigger Emoji */
