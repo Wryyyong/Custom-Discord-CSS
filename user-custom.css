@@ -1,100 +1,164 @@
-	/* Custom vars */
-:root {
+	/* === Custom vars === */
+:root,
+_ {
 	--main-color: #0099ffff !important;
 	--hover-color: #0066ffff !important;
 	--background-mentioned: #0099ff1a !important;
 	--background-mentioned-hover: #0066ff1a !important;
 
-	/* Discord vars */
+	/* === Discord vars === */
 	--red-400: var(--main-color);
 	--red-430: var(--main-color);
 	--divider-color: var(--main-color);
+	--info-warning-foreground: var(--main-color);
+
+	--custom-emoji-size-jumbo-emoji: 3em;
+	--custom-emoji-size-emoji: 2em;
 }
 
-	/* Hide "Discover" button */
-.cc5dd25190031396-wrapper:has(.ef3116c2da186559-discoveryIcon) {
+	/* === Hide "Discover" button === */
+.cc5dd25190031396-wrapper:has(.ef3116c2da186559-discoveryIcon),
+_ {
 	display: none;
 }
 
-	/* Bigger Emoji */
-.emoji {
+	/* === Bigger emoji === */
+.emoji,
+_ {
 	width: 2em;
 	height: 2em;
 }
-/* Sidebar/Profile */ .c9d15c8a962de3c8-emoji {
+/* Sidebar/Profile */
+.c9d15c8a962de3c8-emoji,
+_ {
 	width: 25px;
 	height: 25px;
 }
-/* Voice chat activity */ .c9d15c8a962de3c8-hangStatusIcon {
+/* Voice chat activity */
+.c9d15c8a962de3c8-hangStatusIcon,
+_ {
 	width: 16px;
 	height: 16px;
 }
 
-	/* Squares */
-/* Group DM icon */ ._20a53846fe2e8513-avatar foreignObject,
-/* Member list */ ._44b0c28be7879b7b-wrapper foreignObject,
-/* DM call users */ .f910d08f42c82225-callAvatarMask foreignObject,
-/* Server icons */ .cc5dd25190031396-wrapper foreignObject,
-/* Profile banners */ ._68edb95846a37624-mask foreignObject,
-/* Emote board server icons */ .b9ee0c229bc0b6bb-categoryItem foreignObject,
-/* Sticker board server icons */ ._3ad28b0867fa3fad-stickerCategory foreignObject,
-/* Soundboard server icons */ .a1e0e01524490cf9-category foreignObject,
-/* Voice channel tile avatars */ ._44b0c28be7879b7b-mask foreignObject {
+	/* === Squares === */
+/* Group DM icon */
+._20a53846fe2e8513-avatar foreignObject,
+/* Member list */
+._44b0c28be7879b7b-wrapper foreignObject,
+/* DM call users */
+.f910d08f42c82225-callAvatarMask foreignObject,
+/* Server icons */
+.cc5dd25190031396-wrapper foreignObject,
+/* Profile banners */
+._68edb95846a37624-mask foreignObject,
+/* Emote board server icons */
+.b9ee0c229bc0b6bb-categoryItem foreignObject,
+/* Sticker board server icons */
+._3ad28b0867fa3fad-stickerCategory foreignObject,
+/* Soundboard server icons */
+.a1e0e01524490cf9-category foreignObject,
+/* Voice channel tile avatars */
+._44b0c28be7879b7b-mask foreignObject,
+_ {
 	mask: none;
 }
-/* Account page */ ._44b0c28be7879b7b-wrapper,
-/* User modal hover */ ._75742e4cc9019aeb-overlay:after,
-/* Text chat */ .c19a557985eb7793-avatar,
-/* Voice chat */ ._07f9193042954787-avatar,
-/* Voice channel tiles */ ._90dc5e06d05dc634-tile,
-/* Voice channel tile option button */ .a22cb0c66246f5d3-button,
-/* Muted/deafened icons */ ._2f4f7eb58b61c328-experimentOverlayTitle,
-/* Speaking border */ ._2f4f7eb58b61c328-border,
-/* "LIVE" icon */ .a7acaedd978a9637-liveShapeRound,
-/* DM server-specific avatars */ ._488b1a4248d1b790-avatar,
-/* DM call ringing */ .f910d08f42c82225-wrapper.f910d08f42c82225-ringingIncoming:after,.f910d08f42c82225-wrapper.f910d08f42c82225-ringingOutgoing:after,
-/* DM call users */ .f910d08f42c82225-voiceAvatar,
-/* DM call speaking */ .f910d08f42c82225-border,
-/* DM call icons */ .f910d08f42c82225-statusContainer,
-/* Replies */ .c19a557985eb7793-replyAvatar,
-/* Commands */ .c19a557985eb7793-executedCommandAvatar,
-/* Notification icons */ ._2b1f52e43a8f1c02-baseShapeRound,
-/* Server icons in closed folders */ .f34534e8a5d3ca64-iconInactive,
-/* Folder icon */ ._48112cbe77dc5022-folderIcon,
-/* Folder background (closed) */ ._48112cbe77dc5022-folderButtonInner, ._48112cbe77dc5022-folderPreviewWrapper,
-/* Folder background (open) */ ._48112cbe77dc5022-folderGroupBackground,
-/* Folder header */ ._48112cbe77dc5022-folderHeader,
-/* Game icons */ ._8c6c22ea0d0f0ea2-gameIcon,
-/* Notifications badge */ ._3b95d7d910416e54-bar,
-/* Rewards badge */ ._4ed1af9a212b8f4f-newBadge,
-/* Channel links */ .f34534e8a5d3ca64-iconActiveMedium,
-/* Reactions */ ._23977d5b7cef7361-reaction,
-/* Reaction button */ ._23977d5b7cef7361-reactionBtn,
-/* Clan tags */ ._10651c5cfe637db6-chipletContainerInner {
+
+/* Account page */
+._44b0c28be7879b7b-wrapper,
+/* User modal hover */
+._75742e4cc9019aeb-overlay:after,
+/* Text chat */
+.c19a557985eb7793-avatar,
+/* Voice chat */
+._07f9193042954787-avatar,
+/* Voice channel tiles */
+._90dc5e06d05dc634-tile,
+/* Voice channel tile option button */
+.a22cb0c66246f5d3-button,
+/* Muted/deafened icons */
+._2f4f7eb58b61c328-experimentOverlayTitle,
+/* Speaking border */
+._2f4f7eb58b61c328-border,
+/* "LIVE" icon */
+.a7acaedd978a9637-liveShapeRound,
+/* DM server-specific avatars */
+._488b1a4248d1b790-avatar,
+/* DM call ringing */
+.f910d08f42c82225-wrapper.f910d08f42c82225-ringingIncoming:after,
+.f910d08f42c82225-wrapper.f910d08f42c82225-ringingOutgoing:after,
+/* DM call users */
+.f910d08f42c82225-voiceAvatar,
+/* DM call speaking */
+.f910d08f42c82225-border,
+/* DM call icons */
+.f910d08f42c82225-statusContainer,
+/* Replies */
+.c19a557985eb7793-replyAvatar,
+/* Commands */
+.c19a557985eb7793-executedCommandAvatar,
+/* Notification icons */
+._2b1f52e43a8f1c02-baseShapeRound,
+/* Server icons in closed folders */
+.f34534e8a5d3ca64-iconInactive,
+/* Folder icon */
+._48112cbe77dc5022-folderIcon,
+/* Folder background (closed) */
+._48112cbe77dc5022-folderButtonInner,
+._48112cbe77dc5022-folderPreviewWrapper,
+/* Folder background (open) */
+._48112cbe77dc5022-folderGroupBackground,
+/* Folder header */
+._48112cbe77dc5022-folderHeader,
+/* Game icons */
+._8c6c22ea0d0f0ea2-gameIcon,
+/* Notifications badge */
+._3b95d7d910416e54-bar,
+/* Rewards badge */
+._4ed1af9a212b8f4f-newBadge,
+/* Channel links */
+.f34534e8a5d3ca64-iconActiveMedium,
+/* Reactions */
+._23977d5b7cef7361-reaction,
+/* Reaction button */
+._23977d5b7cef7361-reactionBtn,
+/* Clan tags */
+._10651c5cfe637db6-chipletContainerInner,
+_ {
 	border-radius: 0 !important;
 }
 
-	/* Underline Labels in Channels, Member Lists and DMs */
-/* Channel list */ ._29444ba32c7fbeab-name .b0dfc2ed9c57037d-overflow,
-/* Member list */ .c8ffbb79449f399c-membersGroup {
+	/* === Underline Labels in Channels, Member Lists and DMs === */
+/* Channel list */
+._29444ba32c7fbeab-name .b0dfc2ed9c57037d-overflow,
+/* Member list */
+.c8ffbb79449f399c-membersGroup,
+_ {
 	color: var(--main-color);
 	text-align: center;
 	overflow: visible;
 }
-/* Channel list */ div._29444ba32c7fbeab-mainContent,
-/* Member list */ .c8ffbb79449f399c-membersGroup::after {
+/* Channel list */
+div._29444ba32c7fbeab-mainContent,
+/* Member list */
+.c8ffbb79449f399c-membersGroup::after,
+_ {
 	border-bottom: 2px solid var(--main-color);
 	padding-bottom: 5px;
 	margin-bottom: 10px;
 	content: "";
 	display: block;
 }
-/* Member list */ ._29444ba32c7fbeab-mainContent ._29444ba32c7fbeab-name {
+/* Member list */
+._29444ba32c7fbeab-mainContent ._29444ba32c7fbeab-name,
+_ {
 	flex: 1 1 auto !important;
 }
 
-	/* Custom Ping Badge */
-/* Server icons */ .cc5dd25190031396-wrapper ._2b1f52e43a8f1c02-numberBadge {
+	/* === Custom Ping Badge === */
+/* Server icons */
+.cc5dd25190031396-wrapper ._2b1f52e43a8f1c02-numberBadge,
+_ {
 	-webkit-text-stroke: 2px var(--main-color);
 	font-size: 36px;
 	min-height: 40px;
@@ -102,7 +166,9 @@
 	letter-spacing: 0px;
 	background-color: rgba(0,0,0,0.330719) !important;
 }
-/* Channel list */ .d125d22cdfd32cfe-content ._2b1f52e43a8f1c02-numberBadge {
+/* Channel list */
+.d125d22cdfd32cfe-content ._2b1f52e43a8f1c02-numberBadge,
+_ {
 	-webkit-text-stroke: 1.125px var(--main-color);
 	font-size: 1em;
 	min-height: 0px;
@@ -111,10 +177,14 @@
 	background-color: rgba(0,0,0,0) !important;
 }
 
-	/* Special Codeblocks */
-/* Code blocks */ ._752971923a1e6683-codeContainer code,
-/* Text files */ ._4d95d73152192cf9-textContainer code,
-/* Text file modal */ ._4d95d73152192cf9-modalTextContainer code {
+	/* === Special Codeblocks === */
+/* Code blocks */
+._752971923a1e6683-codeContainer code,
+/* Text files */
+._4d95d73152192cf9-textContainer code,
+/* Text file modal */
+._4d95d73152192cf9-modalTextContainer code,
+_ {
 	font-family: 'Courier New',Courier,monospace;
 	font-size: 12px;
 	line-height: 14px;
