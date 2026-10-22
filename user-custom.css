@@ -1,10 +1,10 @@
-	/* === Custom vars === */
 :root,
 _ {
+	/* === Custom vars === */
 	--main-color: #0099ffff !important;
 	--hover-color: #0066ffff !important;
-	--background-mentioned: #0099ff1a !important;
-	--background-mentioned-hover: #0066ff1a !important;
+	--background-mentioned: #0099ff1a;
+	--background-mentioned-hover: #0066ff1a;
 
 	/* === Discord vars === */
 	--red-400: var(--main-color);
@@ -16,8 +16,22 @@ _ {
 	--custom-emoji-size-emoji: 2em;
 }
 
+	/* === Custom Mention Background === */
+.mentioned__5126c,
+_ {
+	background: var(--background-mentioned);
+}
+.mentioned__5126c:hover,
+_ {
+	background: var(--background-mentioned-hover) !important;
+}
+.mentioned__5126c:before,
+_ {
+	background: var(--main-color);
+}
+
 	/* === Hide "Discover" button === */
-.cc5dd25190031396-wrapper:has(.ef3116c2da186559-discoveryIcon),
+.wrapper_cc5dd2:has(.discoveryIcon_ef3116),
 _ {
 	display: none;
 }
@@ -29,119 +43,132 @@ _ {
 	height: 2em;
 }
 /* Sidebar/Profile */
-.c9d15c8a962de3c8-emoji,
+.emoji_c9d15c,
 _ {
 	width: 25px;
 	height: 25px;
 }
 /* Voice chat activity */
-.c9d15c8a962de3c8-hangStatusIcon,
+.hangStatusIcon_c9d15c,
 _ {
 	width: 16px;
 	height: 16px;
 }
 
-	/* === Squares === */
-/* Group DM icon */
-._20a53846fe2e8513-avatar foreignObject,
+/* Group DM icons */
+.avatar__20a53 foreignObject,
+.gdmIcon__754bd foreignObject,
 /* Member list */
-._44b0c28be7879b7b-wrapper foreignObject,
+.wrapper__44b0c foreignObject,
 /* DM call users */
-.f910d08f42c82225-callAvatarMask foreignObject,
+.callAvatarMask_f910d0 foreignObject,
 /* Server icons */
-.cc5dd25190031396-wrapper foreignObject,
+.wrapper_cc5dd2 foreignObject,
 /* Profile banners */
-._68edb95846a37624-mask foreignObject,
+.mask__68edb foreignObject,
 /* Emote board server icons */
-.b9ee0c229bc0b6bb-categoryItem foreignObject,
+.categoryItem_b9ee0c foreignObject,
 /* Sticker board server icons */
-._3ad28b0867fa3fad-stickerCategory foreignObject,
+.stickerCategory__3ad28 foreignObject,
 /* Soundboard server icons */
-.a1e0e01524490cf9-category foreignObject,
+.category_a1e0e0 foreignObject,
 /* Voice channel tile avatars */
-._44b0c28be7879b7b-mask foreignObject,
+.mask__44b0c foreignObject,
 _ {
 	mask: none;
 }
 
+/* Hover boxes */
+.container_e45859,
+/* DM list avatars */
+.avatar__44b0c,
 /* Account page */
-._44b0c28be7879b7b-wrapper,
+.wrapper__44b0c,
 /* User modal hover */
-._75742e4cc9019aeb-overlay:after,
+.overlay__75742:after,
 /* Text chat */
-.c19a557985eb7793-avatar,
+.avatar_c19a55,
 /* Voice chat */
-._07f9193042954787-avatar,
+.avatar__07f91,
 /* Voice channel tiles */
-._90dc5e06d05dc634-tile,
+.tile__90dc5,
 /* Voice channel tile option button */
-.a22cb0c66246f5d3-button,
+.button_a22cb0,
 /* Muted/deafened icons */
-._2f4f7eb58b61c328-experimentOverlayTitle,
+.experimentOverlayTitle__2f4f7,
 /* Speaking border */
-._2f4f7eb58b61c328-border,
+.border__2f4f7,
 /* "LIVE" icon */
-.a7acaedd978a9637-liveShapeRound,
+.liveShapeRound_a7acae,
+.round__52929,
+/* Group DM icons */
+.circularImage__1ce5d,
 /* DM server-specific avatars */
-._488b1a4248d1b790-avatar,
+.avatar__488b1,
 /* DM call ringing */
-.f910d08f42c82225-wrapper.f910d08f42c82225-ringingIncoming:after,
-.f910d08f42c82225-wrapper.f910d08f42c82225-ringingOutgoing:after,
+.wrapper_f910d0.ringingIncoming_f910d0:after,
+.wrapper_f910d0.ringingOutgoing_f910d0:after,
 /* DM call users */
-.f910d08f42c82225-voiceAvatar,
+.voiceAvatar_f910d0,
 /* DM call speaking */
-.f910d08f42c82225-border,
+.border_f910d0,
 /* DM call icons */
-.f910d08f42c82225-statusContainer,
+.statusContainer_f910d0,
+/* DM "LIVE" icon */
+.VoiceActivity-voiceicon-iconLive,
+/* DM voice activity icon */
+.VoiceActivity-voiceicon-icon,
 /* Replies */
-.c19a557985eb7793-replyAvatar,
+.replyAvatar_c19a55,
 /* Commands */
-.c19a557985eb7793-executedCommandAvatar,
+.executedCommandAvatar_c19a55,
 /* Notification icons */
-._2b1f52e43a8f1c02-baseShapeRound,
+.baseShapeRound__2b1f5,
+.baseShapeRound__463b7,
 /* Server icons in closed folders */
-.f34534e8a5d3ca64-iconInactive,
+.iconInactive_f34534,
 /* Folder icon */
-._48112cbe77dc5022-folderIcon,
+.folderIcon__48112,
 /* Folder background (closed) */
-._48112cbe77dc5022-folderButtonInner,
-._48112cbe77dc5022-folderPreviewWrapper,
+.folderButtonInner__48112,
+.folderPreviewWrapper__48112,
 /* Folder background (open) */
-._48112cbe77dc5022-folderGroupBackground,
+.folderGroupBackground__48112,
 /* Folder header */
-._48112cbe77dc5022-folderHeader,
+.folderHeader__48112,
 /* Game icons */
-._8c6c22ea0d0f0ea2-gameIcon,
+.gameIcon__8c6c2,
 /* Notifications badge */
-._3b95d7d910416e54-bar,
+.bar__3b95d,
 /* Rewards badge */
-._4ed1af9a212b8f4f-newBadge,
+.newBadge__4ed1a,
+.badge_c2b88c,
 /* Channel links */
-.f34534e8a5d3ca64-iconActiveMedium,
+.iconActiveMedium_f34534,
 /* Reactions */
-._23977d5b7cef7361-reaction,
+.reaction__23977,
 /* Reaction button */
-._23977d5b7cef7361-reactionBtn,
+.reactionBtn__23977,
 /* Clan tags */
-._10651c5cfe637db6-chipletContainerInner,
+.chipletContainerInner__10651,
 _ {
 	border-radius: 0 !important;
 }
 
 	/* === Underline Labels in Channels, Member Lists and DMs === */
 /* Channel list */
-._29444ba32c7fbeab-name .b0dfc2ed9c57037d-overflow,
+.name__29444 .overflow_b0dfc2,
 /* Member list */
-.c8ffbb79449f399c-membersGroup,
+.membersGroup_c8ffbb,
 _ {
 	color: var(--main-color);
 	text-align: center;
 	overflow: visible;
 }
 /* Channel list */
-div._29444ba32c7fbeab-mainContent,
+div.mainContent__29444,
 /* Member list */
-.c8ffbb79449f399c-membersGroup::after,
+.membersGroup_c8ffbb::after,
 _ {
 	border-bottom: 2px solid var(--main-color);
 	padding-bottom: 5px;
@@ -149,15 +176,19 @@ _ {
 	content: "";
 	display: block;
 }
-/* Member list */
-._29444ba32c7fbeab-mainContent ._29444ba32c7fbeab-name,
+.membersGroupHeader_c8ffbb,
+_ {
+	display: block;
+}
+/* Channel list */
+.mainContent__29444 .name__29444,
 _ {
 	flex: 1 1 auto !important;
 }
 
 	/* === Custom Ping Badge === */
 /* Server icons */
-.cc5dd25190031396-wrapper ._2b1f52e43a8f1c02-numberBadge,
+.wrapper_cc5dd2 .numberBadge__463b7,
 _ {
 	-webkit-text-stroke: 2px var(--main-color);
 	font-size: 36px;
@@ -167,7 +198,7 @@ _ {
 	background-color: rgba(0,0,0,0.330719) !important;
 }
 /* Channel list */
-.d125d22cdfd32cfe-content ._2b1f52e43a8f1c02-numberBadge,
+.content_d125d2 .numberBadge__463b7,
 _ {
 	-webkit-text-stroke: 1.125px var(--main-color);
 	font-size: 1em;
@@ -178,14 +209,16 @@ _ {
 }
 
 	/* === Special Codeblocks === */
+/* Inline code markup */
+code.inline,
 /* Code blocks */
-._752971923a1e6683-codeContainer code,
+.codeContainer__75297 code,
 /* Text files */
-._4d95d73152192cf9-textContainer code,
+.textContainer__4d95d code,
 /* Text file modal */
-._4d95d73152192cf9-modalTextContainer code,
+.modalTextContainer__4d95d code,
 _ {
-	font-family: 'Courier New',Courier,monospace;
+	font-family: 'Courier New',Courier,monospace !important;
 	font-size: 12px;
 	line-height: 14px;
 }
